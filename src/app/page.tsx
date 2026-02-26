@@ -335,23 +335,24 @@ export default function Home() {
               <div className="w-full aspect-[4/3] relative bg-[#111] rounded-[1.5rem] overflow-hidden border border-white/5 group-hover:border-[#e60000]/20 transition-colors">
                 {/* Tag */}
                 {item.tag && (
-                  <div className="absolute top-4 left-4 z-10 bg-black/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1.5 rounded-full border border-white/10">
+                  <div className="absolute top-4 left-4 z-20 bg-black/80 backdrop-blur-sm text-white text-xs font-bold px-3 py-1.5 rounded-full border border-white/10">
                     {item.tag}
                   </div>
                 )}
                 
-                {/* Imagen placeholder - reemplazar con Image cuando tengas fotos */}
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-[#1a1a1a] to-[#0a0a0a]">
-                  <span className="text-gray-700 font-[family-name:var(--font-poppins)] font-black text-xl sm:text-2xl opacity-20 rotate-[-8deg] uppercase tracking-widest text-center px-4">
-                    {item.name}
-                  </span>
-                </div>
+                {/* Imagen real */}
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                />
 
                 {/* Overlay en hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
                 
                 {/* Precio flotante */}
-                <div className="absolute bottom-4 right-4 bg-[#e60000] text-white font-bold px-4 py-2 rounded-xl text-lg shadow-lg">
+                <div className="absolute bottom-4 right-4 bg-[#e60000] text-white font-bold px-4 py-2 rounded-xl text-lg shadow-lg z-20">
                   {item.price}
                 </div>
               </div>
