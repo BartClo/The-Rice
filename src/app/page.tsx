@@ -294,7 +294,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gray-400 group-hover:text-[#e60000] transition-colors"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
             </a>
             <a
-              href="https://tiktok.com/@restauranttherice"
+              href="https://www.tiktok.com/search?q=the%20rice%20restaurant%20rancagua&t=1772084999993"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-[#111] hover:bg-[#e60000]/20 border border-gray-800 hover:border-[#e60000]/50 rounded-xl flex items-center justify-center transition-all group"
