@@ -139,9 +139,15 @@ export default function Home() {
 
       {/* Marquee superior */}
       <div className="w-full bg-[#e60000] py-2 overflow-hidden relative z-20">
-        <div className="animate-marquee whitespace-nowrap">
-          <span className="mx-8 text-sm font-bold uppercase tracking-wider">
-            🔥 NUEVO: Bibimbap y Kimbap disponibles • 📍 Retiro en Mujica #202 • 🕒 Mar-Dom 12:30-22:00 • 📱 Pedidos por WhatsApp • 🔥 NUEVO: Bibimbap y Kimbap disponibles • 📍 Retiro en Mujica #202 • 🕒 Mar-Dom 12:30-22:00 • 📱 Pedidos por WhatsApp
+        <div className="flex animate-marquee">
+          <span className="mx-8 text-sm font-bold uppercase tracking-wider whitespace-nowrap">
+            🔥 NUEVO: Bibimbap y Kimbap disponibles • 📍 Retiro en Mujica #202 • 🕒 Lun-Dom 12:30-20:00 Mar 12:30-19:00 • 📱 Pedidos por WhatsApp •
+          </span>
+          <span className="mx-8 text-sm font-bold uppercase tracking-wider whitespace-nowrap">
+            🔥 NUEVO: Bibimbap y Kimbap disponibles • 📍 Retiro en Mujica #202 • 🕒 Lun-Dom 12:30-20:00 Mar 12:30-19:00 • 📱 Pedidos por WhatsApp •
+          </span>
+          <span className="mx-8 text-sm font-bold uppercase tracking-wider whitespace-nowrap">
+            🔥 NUEVO: Bibimbap y Kimbap disponibles • 📍 Retiro en Mujica #202 • 🕒 Lun-Dom 12:30-20:00 Mar 12:30-19:00 • 📱 Pedidos por WhatsApp •
           </span>
         </div>
       </div>
@@ -226,7 +232,7 @@ export default function Home() {
               </div>
               <div>
                 <p className="font-bold text-white text-lg">Horario</p>
-                <p className="text-gray-400 text-sm">Martes a Domingo: 12:30 - 22:00</p>
+                <p className="text-gray-400 text-sm">Lunes a Domingo: 12:30 - 20:00 • Martes: 12:30 - 19:00</p>
               </div>
             </div>
 
